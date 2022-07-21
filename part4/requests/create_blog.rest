@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+content-type: application/json
+
+{
+    "title": "Green Life",
+    "author": "Lisa Schönberg",
+    "url": "www.green-life.com",
+    "likes": 300
+}
